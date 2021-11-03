@@ -1,0 +1,105 @@
+* {
+    text-align: center;
+    text-decoration: none;
+}
+
+body {
+    text-align: center;
+    overflow-y: hidden;
+    overflow-x: hidden ;
+    /* margin: auto; */
+}
+#logo{
+    margin-left: 120px;
+}
+.B {
+    color: rgb(10, 10, 245);
+}
+.R {
+    color: rgb(214, 5, 5);
+}
+.G {
+    color: rgb(3, 110, 3);
+}
+.Y {
+    color: rgb(196, 196, 5);
+}
+header {
+    padding: 2px;
+    float: right;
+    /* position: fixed; */
+}
+#input {
+    height: 30px;
+    border-radius: 20px;
+    /* width: 60%; */
+}
+li {
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 50px;
+    list-style: none;
+    /* bottom: 0; */
+}
+li:hover {
+    color: black;
+}
+section p {
+    display: inline-block;
+    padding: 0px;
+    cursor: pointer;
+    font-family: 'Arial';
+    font-size: 50px;
+}
+.searchbox{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 12fr 500px 12fr;
+    /* border: 2px solid red; */
+    /* justify-content: center;     */
+}
+
+.search_input{
+    width: 40vw !important;
+    justify-self: center;    
+}
+/* @media only screen and (max-width: 500px) {
+    .search_input{
+        width: 90vw !important;
+        border: 4px solid purple;
+    }
+        
+    } */
+
+.flex{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.gs_btn{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: .7rem;
+    cursor: pointer;
+    border: 1px transparent rgb(94, 62, 62);
+    /* margin: .5rem; */
+}
+.gs_btn:hover{
+    /* padding: 1rem 2rem; */
+    border: 1px solid rgb(94, 62, 62);
+}
+.lon a {
+    padding: 8px;
+    color: black;
+}
+.lon a:hover {
+    color: blue;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    /*  left: 25%; */
+}
